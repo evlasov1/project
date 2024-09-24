@@ -1,0 +1,229 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+nav {
+    position: fixed; 
+    width: 100%; 
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; 
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    top: 50px;
+    background: rgba(0, 0, 0, .6);
+}
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader_oficial{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 250;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.5;
+}
+.subheader_call{
+    color: rgb(255, 255, 255);
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+    text-align: center;
+}
+.subheader_phone{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.subheader_btn{
+    border-radius: 4px;
+    margin-top: 18px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.10);
+    background: linear-gradient(0.00deg, rgb(30, 172, 199),rgb(76, 226, 255) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.promo{
+    min-height: 800px;
+    background:url(../img/uber_bg.png) center center / cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo_header{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.promo_subheader{
+    color: rgb(255, 255, 255);
+    margin-top: 22px;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    text-align: center;
+}
+.promo_descr{
+    color: rgb(255, 255, 255);
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.promo_btn{
+    display: block;
+    margin: 116px auto 0 auto;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0.00deg, rgb(30, 172, 199),rgb(76, 226, 255) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.work{
+    padding:20px 0 64px 0;
+}
+.label{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding: 3px 1px;
+    width: 113px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+
+}
+.title{
+    color: rgb(34, 34, 34);
+    margin-top: 32px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.work_block{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 17px;
+}
+.work_rounded{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 25px;
+    background: rgb(30, 172, 199);
+    border-radius:100%;
+    width: 116px;
+    height: 116px;
+}
+.work_descr{
+    width: 371px;
+}
+.work_subheader{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: rgb(30, 172, 199);
+}
+.work_text{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
